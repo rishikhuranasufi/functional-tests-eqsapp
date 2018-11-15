@@ -39,7 +39,7 @@ public class HomePageEQS extends WebDriverPageObject {
         String usersProfile = menu.getText();
         if(usersProfile.equals(" Guest   ")){
             Thread.sleep(10000);
-            usersProfile = menu.getText();
+            usersProfile = menu.getText().trim();
         }
         Assert.assertNotNull(usersProfile);
         Assert.assertEquals(usersProfile,username);
