@@ -12,7 +12,7 @@ Feature: Login Functionality Feature
       |rishikhu|
     Then EQS App Login should be successful as
       |user|
-      |Rishi Khurana|
+      | Rishi Khurana   |
     And EQS App Log out from the application
 
   @Web
@@ -28,5 +28,5 @@ Feature: Login Functionality Feature
       |rishikhu|
     Then EQS App Login should be successful as
       |user|
-      |Rishi Khurana|
+      | Rishi Khurana   |
     And EQS App Log out from the application
