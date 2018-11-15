@@ -28,5 +28,5 @@ Feature: Login Functionality Feature
       |rishikhu|
     Then EQS App Login should be successful as
       |user|
-      |Rishi Khurana|
+      |Adarsh Mehrotra|
     And EQS App Log out from the application
