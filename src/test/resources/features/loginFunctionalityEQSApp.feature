@@ -3,7 +3,7 @@ Feature: Login Functionality Feature
   Scenario: As a DevOps Engineer, I want to login to EQS training app.
     Given User navigates to EQS training app login page
       |url                           |
-      |http://naughtyano.info/#/login|
+      |http://eqslearning.xyz/#/login|
     When User sign in using Username as
       |username|
       |rishikhu|
@@ -19,7 +19,7 @@ Feature: Login Functionality Feature
   Scenario: As a DevOps Engineer, I want to login to EQS training app.
     Given User navigates to EQS training app login page
       |url                           |
-      |http://naughtyano.info/#/login|
+      |http://eqslearning.xyz/#/login|
     When User sign in using Username as
       |username|
       |rishikhu|
