@@ -33,7 +33,7 @@ public class HomePage extends WebDriverPageObject {
         waitForPageToLoad();
         waitUntilVisible(menu);
         menu.click();
-        logOutButton.click();
+        //logOutButton.click();
     }
 
     public void verifyLoggedInUserName(String username) throws InterruptedException {
